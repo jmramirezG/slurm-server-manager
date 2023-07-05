@@ -2,7 +2,7 @@
     <application
         android:label="slurm_server_manager"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_slurm_manager">
         <activity
             android:name=".MainActivity"
             android:exported="true"
