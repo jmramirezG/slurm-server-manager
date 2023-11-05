@@ -1,5 +1,145 @@
 {
     "@@locale" : "en",
+    "connections" : "connections",
+    "files" : "files",
+    "nodes" : "nodes",
+    "server_information" : "server info",
+    "add_new_server" : "new connection",
+    "cancel" : "cancel",
+    "connect" : "connect",
+    "address" : "address",
+    "port" : "port",
+    "user" : "user",
     "password" : "password",
-    "not_you_change_user" : "Not you? Change user"
+    "keys" : "keys",
+    "select_file" : "select file",    
+    "file_selected" : "file selected",
+    "authenticate_face_finger": "please, verify with your face or your finger",
+    "could_not_authenticate" : "could not authenticate",
+    "confirm_authentication_method" : "confirm authentication method",
+    "remember_server" : "remember server",
+    "connecting_to_server" : "connecting to the server, please wait",
+    "save" : "save",
+    "forget_server" : "forget server",
+    "forget_server_long" : "are you sure you want to forget this server?",
+    "edit_server" : "edit connection",
+    "server_not_found": "server with address {address} not found in server list",
+    "@server_not_found": {
+        "description": "Specifies the server has not been found in known servers.",
+        "placeholders": {
+            "address": {
+                "type": "String",
+                "example": "localhost"
+            }
+        }
+    },
+    "menu" : "menu",
+    "ssh_console" : "SSH console",
+    "load_avg" : "load %",
+    "load_ram" : "ram %",
+    "load_cpu" : "CPU %",
+    "server_uptime": "server has been on for {hour} h and {minute} min",
+    "@server_uptime": {
+        "description": "Specifies the server uptime.",
+        "placeholders": {
+            "hour": {
+                "type": "String",
+                "example": "6"
+            },
+            "minute": {
+                "type": "String",
+                "example": "15"
+            }
+        }
+    },
+    "server_uptime_with_days": "server has been on for {days} days, {hour} h and {minute} min",
+    "@server_uptime_with_days": {
+        "description": "Specifies the server uptime with days.",
+        "placeholders": {
+            "days": {
+                "type": "String",
+                "example": "1"
+            },
+            "hour": {
+                "type": "String",
+                "example": "6"
+            },
+            "minute": {
+                "type": "String",
+                "example": "15"
+            }
+        }
+    },
+    "job_info" : "job info",
+    "pause" : "pause",
+    "resume" : "resume",
+    "connection_refused" : "connection refused",
+    "accept" : "accept",
+    "auth_failed" : "authentication failed",
+    "unknown_error" : "unexpected error",
+    "list_of_jobs" : "list of jobs",
+    "no_jobs_available" : "no jobs available",
+    "job" : "job",
+    "name" : "name",
+    "jobid" : "job id",
+    "exit" : "exit",
+    "status" : "status",
+    "submit_time" : "submit",
+    "start_time" : "start",
+    "end_time" : "end",
+    "comfirm_cancel" : "do you really want to cancel the selected job?",
+    "yes" : "yes",
+    "no" : "no",
+    "directory_name" : "create new directory",
+    "delete_dir" : "delete the directory?",
+    "delete_file" : "delete the file?",
+    "count_cpu" : "core count",
+    "cpu_model" : "CPU model",
+    "filesystem" : "file system",
+    "architecture" : "architecture",
+    "threads_core" : "threads per core",
+    "threads" : "threads",
+    "cores" : "cores",
+    "free_ram" : "free RAM",
+    "used" : "used",
+    "free" : "free",
+    "shared" : "shared",
+    "available" : "available",
+    "cpu_load" : "CPU load",
+    "product_name" : "product name",
+    "total_memory" : "total memory",
+    "gpu_utilization" : "gpu usage",
+    "memory_utilization" : "memory usage",
+    "temperature" : "temperature",
+    "consumed_power" : "consumed power",
+    "no_internet" : "no internet connection available",
+    "superuser_permissions_required" : "superuser permissions required",
+    "mounted_in": "mounted in {path}",
+    "@mounted_in": {
+        "description": "Specifies where a filesystem is mounted.",
+        "placeholders": {
+            "path": {
+                "type": "String",
+                "example": "/home"
+            }
+        }
+    },
+    "percent_used": "{quantity} ({percent}) used of {total}",
+    "@percent_used": {
+        "description": "Specifies the amount of used memory of a filesystem.",
+        "placeholders": {
+            "quantity": {
+                "type": "String",
+                "example": "7,7G"
+            },
+            "percent": {
+                "type": "String",
+                "example": "21%"
+            },
+            "total": {
+                "type": "String",
+                "example": "400G"
+            }
+        }
+    }
 }

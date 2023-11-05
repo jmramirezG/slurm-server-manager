@@ -1,15 +1,16 @@
 class Globals {
-  static const String loginRoute = loginScreen;
-  static const String loginScreen = "/login";
-  static const String forgotLoginScreen = "/forgot_pass";
+  static const String startScreen = "/";
 
-  static const String homeScreen = "/home";
-  static const String appSettingsScreen = "settings";
-  static const String chatScreen = "chat";
+  static const String errorModal = "/error";
+  static const String newServerModal = "/new";
+  static const String jobModal = "/job";
 
-  static const String profileScreen = "/profile";
-  static const String editProfileScreen = "edit_profile";
+  static const String connectingScreen = "/connecting";
 
-  static const String readingsScreen = "/readings";
-  static const String typeReadingsScreen = "readings_type";
+  static const String mainScreen = "/server";
+
+  static const String auxSSHScreen = "$mainScreen/ssh";
+  static const String auxNodeInfoScreen = "$mainScreen/nodes";
+  static const String auxServerInfoScreen = "$mainScreen/info";
+  static const String auxFileBrowsingScreen = "$mainScreen/files";
 }
